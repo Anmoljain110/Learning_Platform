@@ -161,7 +161,7 @@ export function logout(navigate) {
       try{
         const response = await apiConnector("POST", RESETPASSWORD_API, {password, confirmPassword, token});
   
-        ("RESET Password RESPONSE ... ", response);
+        
   
   
         if(!response.data.success) {
